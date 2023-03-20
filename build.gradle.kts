@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("com.googlecode.json-simple:json-simple:1.1.1")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
