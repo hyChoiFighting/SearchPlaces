@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: search-api
+
+server:
+  shutdown: graceful
+  port: 8080
+
+http-external:
+  naver:
+    url: https://openapi.naver.com
+    clientId: Oo_1cTz3PrLVi8TtZ0Vv
+    clientSecret: m9fBNlN7dV
+
+  kakao:
+    url: https://dapi.kakao.com
+    authorization: KakaoAK 0592e67da4772c0be8542b941edecbd8
+    contentType: application/x-www-form-urlencoded
+
+
+#logging:
+#  level:
+#    root: debug
+

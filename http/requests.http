@@ -1,0 +1,10 @@
+GET http://localhost:8080/v1/api/search-places/by-keyword?keyword=야구장
+
+###
+
+GET http://localhost:8080/v1/api/search-places/keyword-list
+
+###
+
+
+
